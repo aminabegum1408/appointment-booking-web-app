@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #12173E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.font-unbold{
+  font-weight: normal !important;
+}
+.w-fit-content{
+  width: fit-content !important;
+}
+
+.illustrator-container {
+  background: url('./images/login-page-background.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .illustrator-container {
+    height: 200px;
+  }
+}
+
+
+/* Custom form controls */
+.form-control-underline {
+  border: 0 !important;
+  border-bottom: 2px solid #b1b1b1 !important;
+}
+
+.form-control-underline:active, .form-control-underline:focus  {
+  border-bottom: 2px solid #12173E  !important;
+}
